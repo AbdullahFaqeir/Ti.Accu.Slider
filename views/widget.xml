@@ -1,0 +1,13 @@
+<Alloy>
+  <View id="AccuSliderMainHolder">
+    <View id="HeaderHolder">
+      <Label id="SliderTitle"/>
+      <TextField id="SliderValue" onBlur="textValueChanged" onReturn="textValueChanged"/>
+    </View>
+    <View id="AccuSliderHolder">
+      <Label id="SliderFrom"/>
+      <Slider id="Slider" onChange="onChange"/>
+      <Label id="SliderTo"/>
+    </View>
+  </View>
+</Alloy>

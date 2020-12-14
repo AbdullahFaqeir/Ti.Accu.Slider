@@ -1,0 +1,44 @@
+'#AccuSliderMainHolder' : {
+  width : Ti.UI.FILL,
+  height: Ti.UI.SIZE,
+  layout: 'vertical'
+}
+'#SliderTitle' : {
+  width : Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+  left  : 5
+}
+'#SliderValue' : {
+  width    : 75,
+  height   : 40,
+  left     : 5,
+  inputType: Ti.UI.INPUT_TYPE_CLASS_NUMBER
+}
+'#AccuSliderHolder' : {
+  width : Ti.UI.FILL,
+  height: Ti.UI.SIZE
+}
+'#SliderFrom' : {
+  width    : 40,
+  height   : Ti.UI.SIZE,
+  left     : 5,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+'#Slider' : {
+  width : Ti.UI.FILL,
+  height: 50,
+  left  : 50,
+  right : 50
+}
+'#SliderTo' : {
+  width    : 40,
+  height   : Ti.UI.SIZE,
+  right    : 5,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+'#HeaderHolder' : {
+  width : Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+  layout: 'horizontal',
+  left  : 5
+}
